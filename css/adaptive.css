@@ -1,0 +1,318 @@
+@media (max-width: 965px){
+    #sec-01 .home__one .home__item-fhree {
+        display: none;
+    }
+} 
+
+
+@media (max-width: 860px){
+
+    #sec-01 {
+        padding: 70px 0 45px 0;
+    }
+
+
+
+
+
+    #sec-02 .services__title {
+        padding-top: 70px;
+        padding-bottom: 45px;
+    }
+
+    #sec-02 .services__items {
+        padding-bottom: 76px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #sec-02 .services__items .services__item {
+        max-width: 373px;
+        transition: 0.3s;
+        background-color: #fff;
+        margin: 10px;
+        margin-top: 40;
+    }
+
+
+
+    #sec-03 {
+        padding: 70px 0 45px 0;
+    }
+
+    #sec-03 .team .team__items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #sec-03 .team .team__items .team__item {
+        margin: 40px 10px 0 10px;
+        width: 370px;
+        height: 398px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        transition: 0.3s;
+    }
+
+}
+
+
+
+@media (max-width: 750px){
+
+    main .menu {
+        padding-top: 40px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #sec-01 .home__one .home__item-two {
+        display: none;
+    }
+
+    #sec-01 .home__one .home__item-one {
+        position: absolute;
+        width: 309px;
+        height: 418px;
+        top: 20px;
+        left: 130px;
+        z-index: 3;
+        background-image: url(../img/home1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 520px){
+
+    #sec-01{
+        margin-bottom: 45px;;
+    }
+
+    #sec-01 .home__one {
+        position: relative;
+        height: 380px;
+    }
+
+    main .menu .header__burger{
+        display: block;
+        width: 40px;
+        height: 30px;
+        position: relative;
+        margin: 20px;
+    }
+
+    main .menu .header__burger::before,
+    main .menu .header__burger::after{
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: #4CAF50;
+        position: absolute;
+        transition: 0.5s;
+    }
+
+    main .menu .header__burger::before{
+        top: 0;
+    }
+
+    main .menu .header__burger.active::before{
+        transform: rotate(-45deg);
+        top: 14px;
+    }
+
+    main .menu .header__burger::after{
+        bottom: 0;
+    }
+
+    main .menu .header__burger.active::after{
+        transform: rotate(45deg);
+        bottom: 14px;   
+    }
+
+    main .menu .header__burger span{
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #4CAF50;
+        bottom: 13px;
+        transition: 0.5s;
+    }
+
+    main .menu .header__burger.active span{
+        opacity: 0;
+    }
+
+    main .menu {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        margin-left: -15px;
+    }
+
+    main .menu .menu__list {
+        display: block;
+        background-color: #252525;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: -100%;
+        padding-top: 90px;
+        transition: 0.5s;
+    }
+
+    main .menu .menu__list li {
+        list-style: none;
+        margin-left: 20px;
+        margin-bottom: 45px;
+    }
+
+    main .menu .menu__list li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1.94px;
+        text-transform: uppercase;
+        font-size: 22px;
+        line-height: 25px;
+        position: relative;
+    }
+
+    main .menu .menu__list.active{
+        top:  0;
+        transition: 0.5s;
+    }
+
+    main .menu .menu__list li a::before {
+        content: '';
+        height: 2px;
+        width: 0px;
+        position: absolute;
+        background-color: #4CAF50;
+        bottom: 0;
+        right: 0;
+    }
+
+    main .menu .menu__list.active li a::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        background-color: #4CAF50;
+        bottom: 0;
+        right: 0;
+        transition-delay: 0.5s;
+        transition: 0.8s;
+    }
+
+
+    #sec-01 .home__one .home__item-one {
+        position: absolute;
+        width: 309px;
+        height: 418px;
+        top: 20px;
+        left: 130px;
+        z-index: 2;
+        background-image: url(../img/home1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    main .main__footer h3{
+        z-index: 1;
+    }
+
+}
+
+@media (max-width: 450px){
+
+    main .main__title h1 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 65px;
+        letter-spacing: 4.608px;
+    }
+
+    #sec-01 {
+        padding: 40px 0 0    0;
+    }
+
+
+    #sec-01 .home__one .home__item-one{
+        left: 40px;
+    }
+
+
+    #sec-02 .services__title {
+        padding-top: 45px;
+        padding-bottom: 25px;
+    }
+
+    #sec-02 .services__items {
+        padding-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #sec-03 {
+        padding: 45px 0 25px 0;
+    }
+
+    #sec-04 {
+        background-color: #FBFBFB;
+        padding: 70px 0;
+    }
+
+    #sec-05 .contact {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #sec-05 .contact .contact__box1{
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    #sec-05 .contact .contact__box2 {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    #sec-06 .index {
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px){
+   
+    #sec-01 .home__one .home__item-one{
+        left: 10px;
+    }
+
+}
+
+
+@media (max-width: 345px){
+    #sec-01 .home__one .home__item-one{
+        left: 0px;
+        width: 290px;
+    }
+}
