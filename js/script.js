@@ -1,30 +1,41 @@
 $(document).ready(function(){
-    $('.read__more-one').hover(function(){
-        $('.services__item-one').toggleClass('hovered');
+    $('.sec-02-box-1').hover(function(){
+        $('.sec-02-box-1').toggleClass('hoverred');
     });
-    $('.read__more-two').hover(function(){
-        $('.services__item-two').toggleClass('hovered');
+    $('.sec-02-box-2').hover(function(){
+        $('.sec-02-box-2').toggleClass('hoverred');
     });
-    $('.read__more-three').hover(function(){
-        $('.services__item-three').toggleClass('hovered');
+    $('.sec-02-box-3').hover(function(){
+        $('.sec-02-box-3').toggleClass('hoverred');
     });
-
-    $('.team__item-one').hover(function(){
-        $('.team__item-content-one1, .team__item-content-one2').toggleClass('hovered');
+    $('.sec-02-box-4').hover(function(){
+        $('.sec-02-box-4').toggleClass('hoverred');
     });
-    $('.team__item-two').hover(function(){
-        $('.team__item-content-two1, .team__item-content-two2').toggleClass('hovered');
+    $('.sec-02-box-5').hover(function(){
+        $('.sec-02-box-5').toggleClass('hoverred');
     });
-    $('.team__item-three').hover(function(){
-        $('.team__item-content-three1, .team__item-content-three2').toggleClass('hovered');
+    $('.sec-02-box-6').hover(function(){
+        $('.sec-02-box-6').toggleClass('hoverred');
     });
-    $('.feedback__slider').slick({
+    $('.sec-02-box-7').hover(function(){
+        $('.sec-02-box-7').toggleClass('hoverred');
+    });
+    $('.sec-02-box-8').hover(function(){
+        $('.sec-02-box-8').toggleClass('hoverred');
+    });
+    $('.slider__list').slick({
+        arrows: false,
+        dots: true,
+        speed: 550,
         autoplay: true,
         autoplaySpeed: 5000,
     });
-
     $('.header__burger').click(function(){
-        $('.header__burger, .menu__list').toggleClass('active');
+        $('.header__burger, .nav__list').toggleClass('active');
         $('body').toggleClass('lock');
     });
+
 });
+
+
+
